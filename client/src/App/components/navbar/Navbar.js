@@ -8,7 +8,11 @@ function Navbar(props) {
         <nav className="navbar">
             <figure className="brand" >
                 <Link to="/">
-                    Brand stuff if needed
+                    <img 
+                        src="/images/signedBear.png"
+                        alt="brand"
+                        className="brand"
+                        />
                 </Link>
             </figure>
             <ul className="nav-list">
