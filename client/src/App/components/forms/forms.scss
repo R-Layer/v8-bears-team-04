@@ -59,7 +59,8 @@
     flex-wrap: wrap;
     align-items: baseline;
     width: 100%;
-    input {
+    margin-bottom: 1rem;
+    input[type=text] {
         flex: 1 1 100%;
 
         border:none;
@@ -68,7 +69,6 @@
         box-shadow: none;
 
         border-bottom: 3px double $white-color;
-        margin-bottom:1rem;
         color: darken($info-color, 15%);
         font-size: 1.2rem;
         font-weight: 600;

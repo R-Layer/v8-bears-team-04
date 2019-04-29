@@ -18,6 +18,7 @@ function ModalFormCoordinates({submitData}){
     <form onSubmit={handleSubmit}>
         <div className="modal-row">
                 <input 
+                    type="text"
                     id="lat" 
                     name="lat" 
                     size="1" 
@@ -27,6 +28,7 @@ function ModalFormCoordinates({submitData}){
                     onChange={e => setLat(e.target.value)}
                 />
                 <input 
+                    type="text"
                     id="lng" 
                     name="lng" 
                     size="1"

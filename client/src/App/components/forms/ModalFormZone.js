@@ -15,6 +15,7 @@ function ModalFormZone({submitData}){
     <form onSubmit={handleSubmit}>
         <div className="modal-row">
                 <input 
+                    type="text"
                     id="lat" 
                     name="lat" 
                     size="1" 
