@@ -8,6 +8,7 @@
     right: 0;
     bottom: 0;
     background-color: rgba(20, 20, 20, 0.5);
+    z-index: 1000;
 }
 
 .modal-wrapper {
@@ -19,6 +20,7 @@
     color: darken($info-color, 10%);
     padding: 1rem;
     border-radius: 5px;
+    z-index: 1000;
 }
 
 .modal-header {

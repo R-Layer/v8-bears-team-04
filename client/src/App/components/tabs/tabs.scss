@@ -25,6 +25,9 @@
         box-shadow: 2px 0px  $theme-main-color, -2px 0px $theme-main-color;
         cursor: pointer;
 
+        border-left: 1px solid #222;
+        border-right: 1px solid #222;
+        border-top: 1px solid #222;
         &.active {
             background-color: $theme-main-color;
         }
@@ -33,6 +36,7 @@
 
 .content-window-tabs {
     background-color: $theme-main-color;
+    box-shadow: 0 -2px #222;
     padding: 2rem 1rem;
 }
 
@@ -96,6 +100,7 @@
     width: 100%;
     background-color: #ededed;
     list-style-type: none;
+    z-index: 1000;
 
     li {
         width: 100%;
